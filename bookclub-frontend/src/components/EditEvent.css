@@ -1,0 +1,60 @@
+.card-header {
+    font-family: "Apple Braille", sans-serif;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #F5F2EA;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#submit-button{
+    background-color: #382110;
+    border: none;
+}
+
+#submit-button:hover{
+    background-color: #007bff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    color: #fff;
+}
+
+.alert {
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#editEventTitle{
+    color: #382110;
+    font-family: "Apple Braille";
+}
+
+#editEventCard{
+    width: 80%;
+    background-color: #F5F2EA;
+}
+
+.form-label{
+    font-weight: bold;
+    color: #382110;
+}

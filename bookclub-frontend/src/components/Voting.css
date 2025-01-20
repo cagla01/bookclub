@@ -1,0 +1,93 @@
+.card {
+    width: 100%;
+    max-width: 18rem;
+    background-color: #F5F2EA;
+    color: #382110;
+}
+
+.card-body .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body .button-group button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.btn-light {
+    border: 1px solid #ddd;
+}
+
+.btn-light.text-danger:hover {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-bottom: 1px solid #ddd;
+    max-height: 200px;
+}
+
+
+#vote-button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: "Apple Braille";
+    font-size: 17px;
+    background-color: #382110;
+    color: #F5F2EA;
+    border: none;
+}
+
+#votingTitle{
+    margin: 20px;
+    color: #382110;
+    font-family: "Apple Braille";
+    font-size: xx-large;
+}
+
+#voteCards{
+    background-color: #F5F2EA;
+}
+
+#voteCardFooter{
+    background-color: #F5F2EA !important;
+}
+
+#deadlineButton{
+    background-color: #382110;
+    color: #F5F2EA;
+    border: none;
+}
+
+#deadlineButton:hover{
+    background-color: #F5F2EA;
+    color: #382110;
+    border: none;
+}
+
+#vote-button.vote-button {
+    background-color: #382110;
+    color: #F5F2EA;
+    border: none;
+}
+
+#vote-button.your-vote-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+#vote-button.vote-button:hover {
+    background-color: #504136;
+}
+
+#vote-button.your-vote-button:hover {
+    background-color: #218838;
+}

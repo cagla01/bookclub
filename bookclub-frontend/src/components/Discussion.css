@@ -1,0 +1,53 @@
+#discussionTitle {
+    margin: 20px;
+    color: #382110;
+    font-family: "Apple Braille";
+    font-size: xx-large;
+}
+
+.discussion-card {
+    margin: 10px auto;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 1400px;
+    border: none;
+    background-color: #F5F2EA !important;
+    display: block;
+}
+
+.discussion-image {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.discussion-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discussion-card .card-footer .btn {
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+#discussionCardFooter{
+    background-color: #F5F2EA !important;
+    border: none !important;
+}
+
+#thread-button{
+    background-color: transparent;
+    border: none;
+    color: #382110;
+    text-decoration: underline;
+}
+
+#thread-button:hover{
+    color: #007bff;
+}

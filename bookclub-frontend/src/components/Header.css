@@ -1,0 +1,70 @@
+#login-button, #logout-button {
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #382110;
+    color: #F5F2EA;
+    font-family: "Apple Braille";
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.Nav-Klass {
+    padding-inline: 15px;
+    padding-top: 5px;
+    color: #382110;
+    text-decoration: none;
+    cursor: pointer;
+    margin-inline: 10px;
+}
+
+.Nav-Klass:hover {
+    background-color: #382110;
+    color: #F5F2EA !important;
+    border-radius: 5px;
+}
+
+.Nav-Klass.Nav-Active,
+.Nav-Klass.Nav-Active:focus,
+.Nav-Klass.Nav-Active:hover {
+    background-color: #382110 !important;
+    color: #F5F2EA !important;
+    font-weight: bold !important;
+    border-radius: 5px;
+}
+
+.App-header {
+    margin-bottom: 20px;
+    background-color: #F5F2EA;
+    z-index: 1050;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.App-title {
+    font-weight: bold;
+    cursor: pointer;
+    color: #382110 !important;
+    margin-right: auto;
+}
+
+.navbar-collapse {
+    background-color: #F5F2EA;
+    z-index: 1050;
+}
+
+@media (max-width: 992px) {
+    #login-button {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #F5F2EA;
+    }
+}

@@ -1,0 +1,20 @@
+#sign-button{
+    background-color: #382110;
+    border: none;
+}
+
+#loginform{
+    margin-top: 50px;
+}
+
+.nav-item{
+    background-color: #F5F2EA;
+    border-radius: 5px;
+}
+.nav-link{
+    color: #382110 !important;
+}
+.nav-link.active {
+    background-color: #382110 !important;
+    color: #FFFFFF !important;
+}

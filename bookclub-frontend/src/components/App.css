@@ -1,0 +1,38 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height:80px;
+}
+
+.App-title{
+  font-size: 1.5em;
+}
+
+.App-header {
+  background-color: #F5F2EA;
+  height: 80px;
+  padding: 20px;
+  color: #382110;
+  display: flex;
+  font-family: "Apple Braille";
+  font-weight: bold;
+}
+
+.Nav-Klass{
+  padding-inline: 25px;
+  padding-top: 5px;
+
+}
+
+.Nav-Klass:hover{
+  background-color: #382110;
+  color: #F5F2EA;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
