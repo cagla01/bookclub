@@ -13,13 +13,16 @@ BookClub is a web application designed to facilitate a virtual book club. It fea
 - **Password Encryption:** User passwords are stored securely using Bcrypt.
 - **HTTPS:** Communication is encrypted for added security.
 
+![Bookclub Startpage](./imgs/startPage.png)
+
 ### Functionalities
 #### **Book Recommendations**
 - Users can **add**, **edit**, and **delete** book recommendations.
 - Only the user who created the book recommendation can edit or delete it.
 - Duplicate book recommendations are not allowed.
 
-![Bookclub Voting](./imgs/voting.png)
+![Bookclub Add a Book](./imgs/addBook.png)
+
 
 #### **Voting**
 - **Admins** can create voting deadlines.
@@ -29,20 +32,33 @@ BookClub is a web application designed to facilitate a virtual book club. It fea
   - If there are no votes, no book wins.
   - In case of a tie, the winner is determined alphabetically by book title.
 
+![Bookclub Voting](./imgs/voting.png)
+
 #### **Discussion**
 - A discussion thread is **automatically created** for the winning book after the voting deadline ends.
   - The backend checks every 60 seconds to see if the deadline has passed and identifies the winner.
 - Users can **add**, **edit**, and **delete** comments in the discussion thread.
 
+![Bookclub Discussion](./imgs/discussion.png)
+
+![Bookclub Comments](./imgs/comments.png)
+
 #### **Events**
 - **Admins** can create, edit, and delete announcements for events.
 - Only logged-in users can view events.
+
+![Bookclub Events](./imgs/events.png)
 
 #### **User Management**
 - **Admins** can block users from accessing the platform.
 
 #### **Admin Privileges**
 - Admins can edit or delete **any** book recommendations and comments.
+
+![Bookclub Admin Voting](./imgs/adminVoting.png)
+
+
+![Bookclub Admin Events](./imgs/adminEvents.png)
 
 ---
 
