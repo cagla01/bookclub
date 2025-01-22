@@ -19,6 +19,8 @@ BookClub is a web application designed to facilitate a virtual book club. It fea
 - Only the user who created the book recommendation can edit or delete it.
 - Duplicate book recommendations are not allowed.
 
+![Bookclub Voting](./imgs/voting.png)
+
 #### **Voting**
 - **Admins** can create voting deadlines.
 - Users can vote on books **only within the active deadline**.
